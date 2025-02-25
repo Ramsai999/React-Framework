@@ -55,6 +55,47 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Form container styles */
+.form-container {
+  background-color: #1a202c; /* Dark background */
+  color: white; /* White text */
+  padding: 40px; /* Bigger padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bigger shadow */
+  margin-bottom: 40px; /* Space below the form */
+}
+
+.form-container input,
+.form-container textarea {
+  background-color: #2d3748; /* Darker input background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 15px; /* Bigger padding */
+  font-size: 1.2em; /* Bigger font size */
+  margin-bottom: 20px; /* Space between fields */
+  width: 90%; /* Full width */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+  color: #a0aec0; /* Placeholder color */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px; /* Bigger padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em; /* Bigger font size */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .App {
